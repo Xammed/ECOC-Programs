@@ -238,11 +238,6 @@ def findMin(values):
             min = i;
     return min
 
-def GenerateMatrix(l, w):
-    squareSeedWidth = l if (l>w) else w
-    squareSeed = ProduceSquare(squareSeedWidth)
-    generateRowTruncationData()
-
 
 generateRowTruncationData(64)
 
